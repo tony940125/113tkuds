@@ -1,3 +1,7 @@
+/*
+ * Time Complexity: O(log n)
+ * 說明：轉換時間為分鐘 O(n)，使用二分搜尋找下一班時間 O(log n)，主要成本來自 binary search。
+ */
 import java.util.Scanner;
 
 public class Q2_NextTHSRDeparture {
